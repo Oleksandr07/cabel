@@ -1,0 +1,1450 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width">
+		<title>ЭНЕРГОСИЛА СПБ</title>
+		<!-- CSS -->
+			<link href="favicon.ico" rel="icon" type="image/x-icon" />
+			<link href='https://fonts.googleapis.com/css?family=Exo+2:400,100,100italic,200,200italic,300,300italic,400italic,500,600,500italic,600italic,700,700italic,800,800italic,900,900italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+			<link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5" media="screen" >
+			<link href="css/style.css" rel="stylesheet" media="screen">
+		<!-- END OF CSS -->
+		<!--SCRIPT -->
+			<script src="js/jquery-1.11.1.min.js"></script>
+			<script src="js/jquery.placeholder.js"></script>
+			<script src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
+			<script src="js/jquery.maskedinput.js"></script>
+			<script src="js/common.js"></script>
+			<!--[if IE]>  
+				<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>  
+			<![endif]--> 
+		<!-- END OF SCRIPT -->
+	</head>
+<body>
+	<header>
+		<div class="header-top">
+			<div class="container">
+				<div class="work-loc">Работаем по всей России</div>
+				<div class="menu-bar">
+					<div class="icon-bar"></div>
+					<div class="icon-bar"></div>
+					<div class="icon-bar"></div>
+				</div>
+				<div class="top-menu">
+					<ul>
+						<li><a href="" class="active">Силовой кабель</a></li>
+						<li><a href="">СИП кабель</a></li>
+						<li><a href="">Кабель контрольный</a></li>
+						<li><a href="">Кабель передачи данных</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="container">
+				<div class="logo">
+					<a href="">
+						<div class="logo-img">
+							<img src="img/logo.png" alt="">
+						</div>
+						<div class="logo-text">
+							<strong>ЭНЕРГОСИЛА СПБ</strong>
+							<p>кабельная продукция</p>
+						</div>
+					</a>
+				</div>
+				<div class="contacts">
+					<div class="contacts-inner">	
+						<div class="contacts-left">
+							<div class="contacts-email">
+								<a href="mailto:energystrength@mail.ru">energystrength@mail.ru</a>
+							</div>
+						</div>
+						<div class="contacts-right">
+							<div class="contacts-phone">
+								<a href="tel:8(929)725-71-41">8 (929) 725-71-41</a>
+								<p>Звоните по России бесплатно!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="head">
+		<div class="container">
+			<div class="head-inner">
+				<div class="head-text">
+					<p>Поставки кабельной продукции за 7 дней по России с экономией от 185.897 рублей напрямую от заводов-изготовителей!</p>
+				</div>
+				<div class="head-img">
+					<img src="img/cabel-img.png" alt="">
+				</div>
+				<div class="head-timer"><span class="blick">Отгружено</span> <span class="timer-num">15807</span> м кабеля</div>
+				<script type="text/javascript">
+					$(function(){
+						var count = parseInt($('.timer-num').text()),
+						countSet=0;
+						$('.timer-num').text('0');
+						function timer(){
+							if (countSet < count) {
+								if (countSet < count*0.95) {
+									countSet+=count/100;
+								} 
+								else {
+									countSet++;
+								}
+								$('.timer-num').text(Math.floor(countSet));
+								setTimeout(timer, 1);
+							}
+						}
+						if ($(window).width() >= 768) {
+							timer();
+						}
+						else{
+							$('.timer-num').text(count);
+						}
+					})
+				</script>
+				<div class="form-box">
+					<form action="#">
+						<div class="form-title">Исключим проблемы подключения электрооборудования и прокладки линий электропередач! Получите расчет Вашего заказа:</div>
+						<div class="form-body">
+							<input type="tel" name="tel" placeholder="Введите номер телефона">
+							<div class="form-button">
+								<input type="submit" value="Получить расчет ►">
+							</div>
+							<div class="form-info">
+								<p>С Вами свяжется специалист по работе с клиентами для уточнения деталей заказа</p>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="products">
+		<div class="container">
+			<h2><b>Виды силового</b> кабеля</h2>
+			<div class="products-inner">
+				<div class="products-box">
+					<div class="products-head">
+						<div class="products-img"><img src="img/product-img1.jpg" alt=""></div>
+					</div>
+					<div class="products-body">
+						<div class="products-title">Силовой 1</div>
+						<div class="products-link"><a href="#modal-product1" class="fancybox"><span>Узнать подробнее</span></a></div>
+					</div>
+				</div>
+				<div class="products-box">
+					<div class="products-head">
+						<div class="products-img"><img src="img/product-img2.jpg" alt=""></div>
+					</div>
+					<div class="products-body">
+						<div class="products-title">Силовой 2</div>
+						<div class="products-link"><a href="#modal-product2" class="fancybox"><span>Узнать подробнее</span></a></div>
+					</div>
+				</div>
+				<div class="products-box">
+					<div class="products-head">
+						<div class="products-img"><img src="img/product-img3.jpg" alt=""></div>
+					</div>
+					<div class="products-body">
+						<div class="products-title">Силовой 3</div>
+						<div class="products-link"><a href="#modal-product3" class="fancybox"><span>Узнать подробнее</span></a></div>
+					</div>
+				</div>
+				<div class="products-box">
+					<div class="products-head">
+						<div class="products-img"><img src="img/product-img4.jpg" alt=""></div>
+					</div>
+					<div class="products-body">
+						<div class="products-title">Силовой 4</div>
+						<div class="products-link"><a href="#modal-product4" class="fancybox"><span>Узнать подробнее</span></a></div>
+					</div>
+				</div>
+				<div class="products-box">
+					<div class="products-head">
+						<div class="products-img"><img src="img/product-img1.jpg" alt=""></div>
+					</div>
+					<div class="products-body">
+						<div class="products-title">Силовой 5</div>
+						<div class="products-link"><a href="#modal-product5" class="fancybox"><span>Узнать подробнее</span></a></div>
+					</div>
+				</div>
+				<div class="products-box">
+					<div class="products-head">
+						<div class="products-img"><img src="img/product-img2.jpg" alt=""></div>
+					</div>
+					<div class="products-body">
+						<div class="products-title">Силовой 6</div>
+						<div class="products-link"><a href="#modal-product6" class="fancybox"><span>Узнать подробнее</span></a></div>
+					</div>
+				</div>
+				<div class="products-box">
+					<div class="products-head">
+						<div class="products-img"><img src="img/product-img3.jpg" alt=""></div>
+					</div>
+					<div class="products-body">
+						<div class="products-title">Силовой 7</div>
+						<div class="products-link"><a href="#modal-product7" class="fancybox"><span>Узнать подробнее</span></a></div>
+					</div>
+				</div>
+				<div class="products-box">
+					<div class="products-head">
+						<div class="products-img"><img src="img/product-img4.jpg" alt=""></div>
+					</div>
+					<div class="products-body">
+						<div class="products-title">Силовой 8</div>
+						<div class="products-link"><a href="#modal-product8" class="fancybox"><span>Узнать подробнее</span></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="numbers">
+		<div class="container">
+			<h2><b>ЭНЕРГОСИЛА СПБ</b> в цифрах</h2>
+			<div class="numbers-inner">
+				<div class="numbers-box">
+					<div class="numbers-head">20</div>
+					<div class="numbers-body">лет существует и работает компания</div>
+				</div>
+				<div class="numbers-box">
+					<div class="numbers-head">35</div>
+					<div class="numbers-body">тысяч наименований кабеля</div>
+				</div>
+				<div class="numbers-box">
+					<div class="numbers-head">12</div>
+					<div class="numbers-body">тысяч проданных единиц кабеля</div>
+				</div>
+				<div class="numbers-box">
+					<div class="numbers-head">24</div>
+					<div class="numbers-body">крупных клиентов доверяют нам</div>
+				</div>
+				<div class="numbers-box">
+					<div class="numbers-head">6.7</div>
+					<div class="numbers-body">миллионов в день оборот продаж</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="benefits">
+		<div class="container">
+			<h2>Преимущества</h2>
+			<div class="benefits-inner">
+				<div class="benefits-box">
+					<div class="benefits-head"><img src="img/benefits-img1.png" alt=""></div>
+					<div class="benefits-body">
+						<p><strong>Оперативность</strong> обработки и исполнение заказа</p>
+					</div>
+				</div>
+				<div class="benefits-box">
+					<div class="benefits-head"><img src="img/benefits-img2.png" alt=""></div>
+					<div class="benefits-body">
+						<p><strong>Гибкая система</strong> оплаты заказа удобным способом</p>
+					</div>
+				</div>
+				<div class="benefits-box">
+					<div class="benefits-head"><img src="img/benefits-img3.png" alt=""></div>
+					<div class="benefits-body">
+						<p><strong>Работаем с</strong> заводами-изготовителями без посредников</p>
+					</div>
+				</div>
+				<div class="benefits-box">
+					<div class="benefits-head"><img src="img/benefits-img4.png" alt=""></div>
+					<div class="benefits-body">
+						<p><strong>Существенно</strong> низкие накладные расходы</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="scope">
+		<div class="container">
+			<h2><b>Кабель используется в</b> промышленности:</h2>
+			<div class="scope-inner">
+				<div class="scope-tabs">
+					<div class="tab-box active" data-title="scope1">
+						<div class="tab-img">
+							<img src="img/tab-img1.png" alt="">
+						</div>
+						<div class="tabs-title">Металлургии</div>
+					</div>
+					<div class="tab-box" data-title="scope2">
+						<div class="tab-img">
+							<img src="img/tab-img2.png" alt="">
+						</div>
+						<div class="tabs-title">Машиностроении</div>
+					</div>
+					<div class="tab-box" data-title="scope3">
+						<div class="tab-img">
+							<img src="img/tab-img3.png" alt="">
+						</div>
+						<div class="tabs-title">Строительстве</div>
+					</div>
+					<div class="tab-box" data-title="scope4">
+						<div class="tab-img">
+							<img src="img/tab-img4.png" alt="">
+						</div>
+						<div class="tabs-title">Энергетике</div>
+					</div>
+					<div class="tab-box" data-title="scope5">
+						<div class="tab-img">
+							<img src="img/tab-img5.png" alt="">
+						</div>
+						<div class="tabs-title">Горнодобывающей</div>
+					</div>
+					<div class="tab-box" data-title="scope6">
+						<div class="tab-img">
+							<img src="img/tab-img6.png" alt="">
+						</div>
+						<div class="tabs-title">Нефтегазовой</div>
+					</div>
+					<div class="tab-box" data-title="scope7">
+						<div class="tab-img">
+							<img src="img/tab-img7.png" alt="">
+						</div>
+						<div class="tabs-title">Транспортной</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="scope-block">
+			<div class="container">
+				<div class="scope-box active" data-title="scope1">
+					<div class="scope-title">Кабели и провода для металлургии 1</div>
+					<div class="scope-body">
+						<div class="scope-left">
+							<div class="scope-text">
+								<p>Продукция общепромышленного назначения, а также специально спроектированные кабели для применения в условиях металлургического производства.</p>
+							</div>
+							<div class="scope-form">
+								<form action="#">
+									<div class="form-title">Хочу получить консультацию и расчет</div>
+									<div class="form-body">
+										<input type="tel" name="tel" placeholder="Введите номер телефона">
+										<div class="form-button">
+											<input type="submit" value="Получить расчет ►">
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="scope-right"><img src="img/scope-img.jpg" alt=""></div>
+					</div>
+				</div>
+				<div class="scope-box" data-title="scope2">
+					<div class="scope-title">Кабели и провода для металлургии 2</div>
+					<div class="scope-body">
+						<div class="scope-left">
+							<div class="scope-text">
+								<p>Продукция общепромышленного назначения, а также специально спроектированные кабели для применения в условиях металлургического производства.</p>
+							</div>
+							<div class="scope-form">
+								<form action="#">
+									<div class="form-title">Хочу получить консультацию и расчет</div>
+									<div class="form-body">
+										<input type="tel" name="tel" placeholder="Введите номер телефона">
+										<div class="form-button">
+											<input type="submit" value="Получить расчет ►">
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="scope-right"><img src="img/scope-img.jpg" alt=""></div>
+					</div>
+				</div>
+				<div class="scope-box" data-title="scope3">
+					<div class="scope-title">Кабели и провода для металлургии 3</div>
+					<div class="scope-body">
+						<div class="scope-left">
+							<div class="scope-text">
+								<p>Продукция общепромышленного назначения, а также специально спроектированные кабели для применения в условиях металлургического производства.</p>
+							</div>
+							<div class="scope-form">
+								<form action="#">
+									<div class="form-title">Хочу получить консультацию и расчет</div>
+									<div class="form-body">
+										<input type="tel" name="tel" placeholder="Введите номер телефона">
+										<div class="form-button">
+											<input type="submit" value="Получить расчет ►">
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="scope-right"><img src="img/scope-img.jpg" alt=""></div>
+					</div>
+				</div>
+				<div class="scope-box" data-title="scope4">
+					<div class="scope-title">Кабели и провода для металлургии 4</div>
+					<div class="scope-body">
+						<div class="scope-left">
+							<div class="scope-text">
+								<p>Продукция общепромышленного назначения, а также специально спроектированные кабели для применения в условиях металлургического производства.</p>
+							</div>
+							<div class="scope-form">
+								<form action="#">
+									<div class="form-title">Хочу получить консультацию и расчет</div>
+									<div class="form-body">
+										<input type="tel" name="tel" placeholder="Введите номер телефона">
+										<div class="form-button">
+											<input type="submit" value="Получить расчет ►">
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="scope-right"><img src="img/scope-img.jpg" alt=""></div>
+					</div>
+				</div>
+				<div class="scope-box" data-title="scope5">
+					<div class="scope-title">Кабели и провода для металлургии 5</div>
+					<div class="scope-body">
+						<div class="scope-left">
+							<div class="scope-text">
+								<p>Продукция общепромышленного назначения, а также специально спроектированные кабели для применения в условиях металлургического производства.</p>
+							</div>
+							<div class="scope-form">
+								<form action="#">
+									<div class="form-title">Хочу получить консультацию и расчет</div>
+									<div class="form-body">
+										<input type="tel" name="tel" placeholder="Введите номер телефона">
+										<div class="form-button">
+											<input type="submit" value="Получить расчет ►">
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="scope-right"><img src="img/scope-img.jpg" alt=""></div>
+					</div>
+				</div>
+				<div class="scope-box" data-title="scope6">
+					<div class="scope-title">Кабели и провода для металлургии 6</div>
+					<div class="scope-body">
+						<div class="scope-left">
+							<div class="scope-text">
+								<p>Продукция общепромышленного назначения, а также специально спроектированные кабели для применения в условиях металлургического производства.</p>
+							</div>
+							<div class="scope-form">
+								<form action="#">
+									<div class="form-title">Хочу получить консультацию и расчет</div>
+									<div class="form-body">
+										<input type="tel" name="tel" placeholder="Введите номер телефона">
+										<div class="form-button">
+											<input type="submit" value="Получить расчет ►">
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="scope-right"><img src="img/scope-img.jpg" alt=""></div>
+					</div>
+				</div>
+				<div class="scope-box" data-title="scope7">
+					<div class="scope-title">Кабели и провода для металлургии 7</div>
+					<div class="scope-body">
+						<div class="scope-left">
+							<div class="scope-text">
+								<p>Продукция общепромышленного назначения, а также специально спроектированные кабели для применения в условиях металлургического производства.</p>
+							</div>
+							<div class="scope-form">
+								<form action="#">
+									<div class="form-title">Хочу получить консультацию и расчет</div>
+									<div class="form-body">
+										<input type="tel" name="tel" placeholder="Введите номер телефона">
+										<div class="form-button">
+											<input type="submit" value="Получить расчет ►">
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="scope-right"><img src="img/scope-img.jpg" alt=""></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="details">
+		<div class="container">
+			<h2><b>Как устроен силовой</b> кабель</h2>
+			<div class="details-inner">
+				<div class="details-box detail1">Оболочка</div>
+				<div class="details-box detail2">Фазная и поясная изоляция</div>
+				<div class="details-box detail3">Токопроводящая жила</div>
+				<div class="details-box detail4">Наружные защитные покровы</div>
+				<div class="details-box detail5">Броня</div>
+			</div>
+			<div class="details-mobile">
+				<img src="img/details-img.png" alt="">
+			</div>
+		</div>
+	</div>
+	<div class="other-products">
+		<div class="container">
+			<h2>Упаковка и сопутствующие материалы к товару:</h2>
+			<div class="other-inner">
+				<div class="other-box">
+					<div class="other-head"><img src="img/other-img1.jpg" alt=""></div>
+					<div class="other-body">Деревянные тара-барабаны</div>
+				</div>
+				<div class="other-box">
+					<div class="other-head"><img src="img/other-img2.jpg" alt=""></div>
+					<div class="other-body">Пластмассовые и металлические катушки</div>
+				</div>
+				<div class="other-box">
+					<div class="other-head"><img src="img/other-img3.jpg" alt=""></div>
+					<div class="other-body">Бухты в п/э упаковке</div>
+				</div>
+				<div class="other-box">
+					<div class="other-head"><img src="img/other-img4.jpg" alt=""></div>
+					<div class="other-body">Сертификаты соответствия</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="payment">
+		<div class="container">
+			<h2><b>Условия оплаты и</b> сроки</h2>
+			<div class="payment-inner">
+				<div class="payment-box">
+					<div class="payment-head">
+						<div class="payment-img"><img src="img/payment-img1.png" alt=""></div>
+					</div>
+					<div class="payment-body">
+						<div class="payment-title">Сроки</div>
+						<div class="payment-list">
+							<ul>
+								<li>В наличии - минимальный срок: 1 неделя</li>
+								<li>Под заказ - от 1 до 3 недель</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="payment-box">
+					<div class="payment-head">
+						<div class="payment-img"><img src="img/payment-img2.png" alt=""></div>
+					</div>
+					<div class="payment-body">
+						<div class="payment-title">Предоплата</div>
+						<div class="payment-list">
+							<ul>
+								<li>Предоплата 70-100%</li>
+								<li>Отгрузка товара</li>
+								<li>Остальная часть оплаты после сдачи товара</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="payment-box">
+					<div class="payment-head">
+						<div class="payment-img"><img src="img/payment-img3.png" alt=""></div>
+					</div>
+					<div class="payment-body">
+						<div class="payment-title">Полная оплата</div>
+						<div class="payment-list">
+							<ul>
+								<li>Полная оплата 100%</li>
+								<li>Отгрузка товара</li>
+								<li>Сдача товара</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="payment-info">
+				<div class="info-box"><img src="img/logo-mini.png" alt="">Не отгружаем большие объемы продукции по постоплате и в рассрочку</div>
+			</div>
+		</div>
+	</div>
+	<div class="form">
+		<div class="container">
+			<div class="form-box">
+				<form action="#">
+					<div class="form-title">Узнайте у специалиста подробности о наличии кабеля, доставке и получите персональную смету по Вашему товару</div>
+					<div class="form-body">
+						<input type="tel" name="tel" placeholder="Введите номер телефона">
+						<div class="form-button">
+							<input type="submit" value="Получить смету ►">
+						</div>
+						<div class="form-info">
+							<p>С Вами свяжется специалист по работе с клиентами для уточнения деталей заказа</p>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="delivery">
+		<div class="container">
+			<h2><b>Поставка</b> товара</h2>
+			<div class="delivery-inner">
+				<div class="delivery-left">
+					<div class="delivery-list">
+						<ul>
+							<li>Доставляем в любой регион России</li>
+							<li>В каждом регионе свой завод-изготовитель </li>
+							<li>Отгрузка товара идет напрямую от завода-изготовителя</li>
+							<li>Получение товара, сверка документации</li>
+						</ul>
+					</div>
+					<div class="delivery-bonus"><img src="img/gift.png" alt=""> Бонус! Доставка товара в подарок!</div>
+				</div>
+				<div class="delivery-right">
+					<img src="img/delivery-img.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="scheme-work">
+		<div class="container">
+			<h2><b>Схема</b> работы</h2>
+			<div class="scheme-inner">
+				<div class="scheme-box">
+					<div class="scheme-head">
+						<div class="scheme-img"><img src="img/scheme-img1.png" alt=""></div>
+					</div>
+					<div class="scheme-body">
+						<div class="scheme-title">Оставить заявку</div>
+						<div class="scheme-text">
+							<p>Получение заявки и обработка ее специалистом</p>
+						</div>
+					</div>
+				</div>
+				<div class="scheme-box">
+					<div class="scheme-head">
+						<div class="scheme-img"><img src="img/scheme-img2.png" alt=""></div>
+					</div>
+					<div class="scheme-body">
+						<div class="scheme-title">Запрос у завода</div>
+						<div class="scheme-text">
+							<p>Запрос наличия, стоимости и сроках у завода-изготовителя</p>
+						</div>
+					</div>
+				</div>
+				<div class="scheme-box">
+					<div class="scheme-head">
+						<div class="scheme-img"><img src="img/scheme-img3.png" alt=""></div>
+					</div>
+					<div class="scheme-body">
+						<div class="scheme-title">Доставка и оплата</div>
+						<div class="scheme-text">
+							<p>Согласование условий, оплата и доставка товара</p>
+						</div>
+					</div>
+				</div>
+				<div class="scheme-box">
+					<div class="scheme-head">
+						<div class="scheme-img"><img src="img/scheme-img4.png" alt=""></div>
+					</div>
+					<div class="scheme-body">
+						<div class="scheme-title">Отгрузка товара</div>
+						<div class="scheme-text">
+							<p>Приемка товара, подписание всей документации</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clients">
+		<div class="container">
+			<h2><b>Топ 10</b> клиентов</h2>
+			<div class="clients-inner">
+				<div class="clients-row">
+					<img src="img/clients-img1.jpg" alt="">
+					<img src="img/clients-img2.jpg" alt="">
+					<img src="img/clients-img3.jpg" alt="">
+					<img src="img/clients-img4.jpg" alt="">
+					<img src="img/clients-img5.jpg" alt="">
+				</div>
+				<div class="clients-row">
+					<img src="img/clients-img6.jpg" alt="">
+					<img src="img/clients-img7.jpg" alt="">
+					<img src="img/clients-img8.jpg" alt="">
+					<img src="img/clients-img9.jpg" alt="">
+					<img src="img/clients-img10.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="certificate">
+		<div class="container">
+			<h2><b>Сертификаты</b> соответствия</h2>
+			<div class="certificate-inner">
+				<div class="certificate-box"><img src="img/certificate-img1.jpg" alt=""></div>
+				<div class="certificate-box"><img src="img/certificate-img2.jpg" alt=""></div>
+				<div class="certificate-box"><img src="img/certificate-img3.jpg" alt=""></div>
+				<div class="certificate-box"><img src="img/certificate-img4.jpg" alt=""></div>
+			</div>
+		</div>
+	</div>
+	<div class="treatment">
+		<div class="container">
+			<h2><b>Обращение ведущего</b> инженера</h2>
+			<div class="treatment-inner">
+				<div class="treatment-head">
+					<img src="img/treatment-img.jpg" alt="">
+				</div>
+				<div class="treatment-body">
+					<div class="treatment-title">Прихотько Татьяна Валентиновна </div>
+					<div class="treatment-prof">Ведущий инженер</div>
+					<div class="treatment-text">
+						<p>Работаем со Строительно-монтажными компаниями, Производственными предприятиями, Нефтегазодобывающими компаниями, Предприятиями по добыче и переработке полезных ископаемых, Судостроительными компаниями, Предприятиями энергообеспечения, Предприятиями социального назначения.</p>
+					</div>
+					<div class="treatment-form">
+						<form action="#">
+							<div class="form-title">Задать вопрос ведущему инженеру</div>
+							<div class="form-body">
+								<input type="tel" name="tel" placeholder="Введите номер телефона">
+								<div class="form-button">
+									<input type="submit" value="Задать вопрос ►">
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="map">
+		<div class="container">
+			<div class="requisite-box">
+				<div class="requisite-title">Наши реквизиты:</div>
+				<div class="requisite-text">
+					<p>ООО «ЭНЕРГОСИЛА СПБ» </p>
+					<p>Юр. адрес: 196128, Российская Федерация, гор. Санкт-Петербург, пл.Чернышевского д. 3, лит. Б, оф. 9-Н </p>
+					<p>Факт. адрес: 196128, Российская Федерация, гор. Санкт-Петербург, пл.Чернышевского д. 3, лит. Б, оф. 9-Н </p>
+					<p>Р/с: 40702810455040007911 </p>
+					<p>Кор/с: 30101810500000000653 </p>
+					<p>БИК: 044030653 </p>
+					<p>Банк: Северо-Западный Банк ОАО «Сбербанк России» </p>
+					<p>ОГРН: 1157847216020 </p>
+					<p>ИНН: 7810358608 </p>
+					<p>КПП: 781001001</p>
+				</div>
+			</div>
+		</div>
+		<div id="map">
+			<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+		    <script type="text/javascript">
+		        ymaps.ready(init);
+		        var myMap, 
+		            myPlacemark;
+
+		        function init(){ 
+		            myMap = new ymaps.Map("map", {
+		                center: [59.86957075824297,30.319164500000014],
+		                zoom: 16
+		            }); 
+		            
+		            myPlacemark = new ymaps.Placemark([59.86957075824297,30.319164500000014], {},{
+
+		            });
+		            
+		            myMap.geoObjects.add(myPlacemark);
+		            myMap.behaviors.disable('scrollZoom');
+		        }
+		    </script>
+		</div>
+	</div>
+	<footer>
+		<div class="footer-top">
+			<div class="container">
+				<div class="logo">
+					<a href="">
+						<div class="logo-img">
+							<img src="img/logo.png" alt="">
+						</div>
+						<div class="logo-text">
+							<strong>ЭНЕРГОСИЛА СПБ</strong>
+							<p>кабельная продукция</p>
+						</div>
+					</a>
+				</div>
+				<div class="contacts">
+					<div class="contacts-inner">	
+						<div class="contacts-left">
+							<div class="contacts-email">
+								<a href="mailto:energystrength@mail.ru">energystrength@mail.ru</a>
+							</div>
+						</div>
+						<div class="contacts-right">
+							<div class="contacts-phone">
+								<a href="tel:8(929)725-71-41">8 (929) 725-71-41</a>
+								<p>Звоните по России бесплатно!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="work-loc">Работаем по всей России</div>
+				<div class="menu-bar">
+					<div class="icon-bar"></div>
+					<div class="icon-bar"></div>
+					<div class="icon-bar"></div>
+				</div>
+				<div class="top-menu">
+					<ul>
+						<li><a href="" class="active">Силовой кабель</a></li>
+						<li><a href="">СИП кабель</a></li>
+						<li><a href="">Кабель контрольный</a></li>
+						<li><a href="">Кабель передачи данных</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div id="modal-product1" class="modal">
+		<div class="modal-head">
+			<div class="modal-title">ПВПУГ</div>
+			<div class="modal-details">
+				<div class="detail-left">
+					<div class="detail-img">
+						<img src="img/product-big1.jpg" alt="">
+					</div>
+				</div>
+				<div class="detail-right">
+					<table>
+						<thead>
+							<tr>
+								<td>Характеристики</td>
+								<td></td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Допустимый нагрев жил при работе в аварийном режиме [°С]</td>
+								<td>130</td>
+							</tr>
+							<tr>
+								<td>Монтаж при температуре, не ниже [°C]</td>
+								<td>-20</td>
+							</tr>
+							<tr>
+								<td>Номинальное переменное напряжение частотой 50 Гц [кВ]</td>
+								<td>10</td>
+							</tr>
+							<tr>
+								<td>Рабочая температура жилы [°С]</td>
+								<td>90</td>
+							</tr>
+							<tr>
+								<td>Допустимый нагрев жил при работе в аварийном режиме [°С]</td>
+								<td>15</td>
+							</tr>
+							<tr>
+								<td>Монтаж при температуре, не ниже [°C]</td>
+								<td>+50</td>
+							</tr>
+							<tr>
+								<td>Номинальное переменное напряжение частотой 50 Гц [кВ]</td>
+								<td>-60</td>
+							</tr>
+							<tr>
+								<td>Рабочая температура жилы [°С]</td>
+								<td>250</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="modal-body">
+			<div class="modal-text">
+				<strong>Область применения</strong>
+				<p>Для стационарной прокладки в земле (в траншеях) независимо от степени коррозионной активности грунтов и вод. </p>
+				<p>Кабели эксплуатируют в грунтах с повышенной влажностью и сырых, частично затапливаемых сооружениях.  </p>
+				<p>В несудоходных водоёмах и в судоходных - при соблюдении мер, исключающих механические повреждения кабеля.   </p>
+				<p>Допускается прокладка на воздухе без защиты от солнечной радиации.  </p>
+				<p>В кабельных сооружениях, обеспечивая доп. меры противопожарной защиты, нанесения огнезащитных покрытий.   </p>
+				<p>Кабели прокладываются на трассах без ограничения разности уровней.   </p>
+				<p>Кабели марки ПвПуг предназначены для прокладки на сложных участках кабельных трасс.  </p>
+				<p>Срок службы кабелей - 30 лет.</p>
+			</div>
+			<div class="modal-form">
+				<form action="#">
+					<div class="form-title">Уточняйте цену у менеджера</div>
+					<div class="form-body">
+						<input type="tel" name="tel" placeholder="Введите номер телефона">
+						<div class="form-button">
+							<input type="submit" value="Узнать цену ►">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="modal-product2" class="modal">
+		<div class="modal-head">
+			<div class="modal-title">ПВПУГ</div>
+			<div class="modal-details">
+				<div class="detail-left">
+					<div class="detail-img">
+						<img src="img/product-big1.jpg" alt="">
+					</div>
+				</div>
+				<div class="detail-right">
+					<table>
+						<thead>
+							<tr>
+								<td>Характеристики</td>
+								<td></td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Допустимый нагрев жил при работе в аварийном режиме [°С]</td>
+								<td>130</td>
+							</tr>
+							<tr>
+								<td>Монтаж при температуре, не ниже [°C]</td>
+								<td>-20</td>
+							</tr>
+							<tr>
+								<td>Номинальное переменное напряжение частотой 50 Гц [кВ]</td>
+								<td>10</td>
+							</tr>
+							<tr>
+								<td>Рабочая температура жилы [°С]</td>
+								<td>90</td>
+							</tr>
+							<tr>
+								<td>Допустимый нагрев жил при работе в аварийном режиме [°С]</td>
+								<td>15</td>
+							</tr>
+							<tr>
+								<td>Монтаж при температуре, не ниже [°C]</td>
+								<td>+50</td>
+							</tr>
+							<tr>
+								<td>Номинальное переменное напряжение частотой 50 Гц [кВ]</td>
+								<td>-60</td>
+							</tr>
+							<tr>
+								<td>Рабочая температура жилы [°С]</td>
+								<td>250</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="modal-body">
+			<div class="modal-text">
+				<strong>Область применения</strong>
+				<p>Для стационарной прокладки в земле (в траншеях) независимо от степени коррозионной активности грунтов и вод. </p>
+				<p>Кабели эксплуатируют в грунтах с повышенной влажностью и сырых, частично затапливаемых сооружениях.  </p>
+				<p>В несудоходных водоёмах и в судоходных - при соблюдении мер, исключающих механические повреждения кабеля.   </p>
+				<p>Допускается прокладка на воздухе без защиты от солнечной радиации.  </p>
+				<p>В кабельных сооружениях, обеспечивая доп. меры противопожарной защиты, нанесения огнезащитных покрытий.   </p>
+				<p>Кабели прокладываются на трассах без ограничения разности уровней.   </p>
+				<p>Кабели марки ПвПуг предназначены для прокладки на сложных участках кабельных трасс.  </p>
+				<p>Срок службы кабелей - 30 лет.</p>
+			</div>
+			<div class="modal-form">
+				<form action="#">
+					<div class="form-title">Уточняйте цену у менеджера</div>
+					<div class="form-body">
+						<input type="tel" name="tel" placeholder="Введите номер телефона">
+						<div class="form-button">
+							<input type="submit" value="Узнать цену ►">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="modal-product3" class="modal">
+		<div class="modal-head">
+			<div class="modal-title">ПВПУГ</div>
+			<div class="modal-details">
+				<div class="detail-left">
+					<div class="detail-img">
+						<img src="img/product-big1.jpg" alt="">
+					</div>
+				</div>
+				<div class="detail-right">
+					<table>
+						<thead>
+							<tr>
+								<td>Характеристики</td>
+								<td></td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Допустимый нагрев жил при работе в аварийном режиме [°С]</td>
+								<td>130</td>
+							</tr>
+							<tr>
+								<td>Монтаж при температуре, не ниже [°C]</td>
+								<td>-20</td>
+							</tr>
+							<tr>
+								<td>Номинальное переменное напряжение частотой 50 Гц [кВ]</td>
+								<td>10</td>
+							</tr>
+							<tr>
+								<td>Рабочая температура жилы [°С]</td>
+								<td>90</td>
+							</tr>
+							<tr>
+								<td>Допустимый нагрев жил при работе в аварийном режиме [°С]</td>
+								<td>15</td>
+							</tr>
+							<tr>
+								<td>Монтаж при температуре, не ниже [°C]</td>
+								<td>+50</td>
+							</tr>
+							<tr>
+								<td>Номинальное переменное напряжение частотой 50 Гц [кВ]</td>
+								<td>-60</td>
+							</tr>
+							<tr>
+								<td>Рабочая температура жилы [°С]</td>
+								<td>250</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="modal-body">
+			<div class="modal-text">
+				<strong>Область применения</strong>
+				<p>Для стационарной прокладки в земле (в траншеях) независимо от степени коррозионной активности грунтов и вод. </p>
+				<p>Кабели эксплуатируют в грунтах с повышенной влажностью и сырых, частично затапливаемых сооружениях.  </p>
+				<p>В несудоходных водоёмах и в судоходных - при соблюдении мер, исключающих механические повреждения кабеля.   </p>
+				<p>Допускается прокладка на воздухе без защиты от солнечной радиации.  </p>
+				<p>В кабельных сооружениях, обеспечивая доп. меры противопожарной защиты, нанесения огнезащитных покрытий.   </p>
+				<p>Кабели прокладываются на трассах без ограничения разности уровней.   </p>
+				<p>Кабели марки ПвПуг предназначены для прокладки на сложных участках кабельных трасс.  </p>
+				<p>Срок службы кабелей - 30 лет.</p>
+			</div>
+			<div class="modal-form">
+				<form action="#">
+					<div class="form-title">Уточняйте цену у менеджера</div>
+					<div class="form-body">
+						<input type="tel" name="tel" placeholder="Введите номер телефона">
+						<div class="form-button">
+							<input type="submit" value="Узнать цену ►">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="modal-product4" class="modal">
+		<div class="modal-head">
+			<div class="modal-title">ПВПУГ</div>
+			<div class="modal-details">
+				<div class="detail-left">
+					<div class="detail-img">
+						<img src="img/product-big1.jpg" alt="">
+					</div>
+				</div>
+				<div class="detail-right">
+					<table>
+						<thead>
+							<tr>
+								<td>Характеристики</td>
+								<td></td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Допустимый нагрев жил при работе в аварийном режиме [°С]</td>
+								<td>130</td>
+							</tr>
+							<tr>
+								<td>Монтаж при температуре, не ниже [°C]</td>
+								<td>-20</td>
+							</tr>
+							<tr>
+								<td>Номинальное переменное напряжение частотой 50 Гц [кВ]</td>
+								<td>10</td>
+							</tr>
+							<tr>
+								<td>Рабочая температура жилы [°С]</td>
+								<td>90</td>
+							</tr>
+							<tr>
+								<td>Допустимый нагрев жил при работе в аварийном режиме [°С]</td>
+								<td>15</td>
+							</tr>
+							<tr>
+								<td>Монтаж при температуре, не ниже [°C]</td>
+								<td>+50</td>
+							</tr>
+							<tr>
+								<td>Номинальное переменное напряжение частотой 50 Гц [кВ]</td>
+								<td>-60</td>
+							</tr>
+							<tr>
+								<td>Рабочая температура жилы [°С]</td>
+								<td>250</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="modal-body">
+			<div class="modal-text">
+				<strong>Область применения</strong>
+				<p>Для стационарной прокладки в земле (в траншеях) независимо от степени коррозионной активности грунтов и вод. </p>
+				<p>Кабели эксплуатируют в грунтах с повышенной влажностью и сырых, частично затапливаемых сооружениях.  </p>
+				<p>В несудоходных водоёмах и в судоходных - при соблюдении мер, исключающих механические повреждения кабеля.   </p>
+				<p>Допускается прокладка на воздухе без защиты от солнечной радиации.  </p>
+				<p>В кабельных сооружениях, обеспечивая доп. меры противопожарной защиты, нанесения огнезащитных покрытий.   </p>
+				<p>Кабели прокладываются на трассах без ограничения разности уровней.   </p>
+				<p>Кабели марки ПвПуг предназначены для прокладки на сложных участках кабельных трасс.  </p>
+				<p>Срок службы кабелей - 30 лет.</p>
+			</div>
+			<div class="modal-form">
+				<form action="#">
+					<div class="form-title">Уточняйте цену у менеджера</div>
+					<div class="form-body">
+						<input type="tel" name="tel" placeholder="Введите номер телефона">
+						<div class="form-button">
+							<input type="submit" value="Узнать цену ►">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="modal-product5" class="modal">
+		<div class="modal-head">
+			<div class="modal-title">ПВПУГ</div>
+			<div class="modal-details">
+				<div class="detail-left">
+					<div class="detail-img">
+						<img src="img/product-big1.jpg" alt="">
+					</div>
+				</div>
+				<div class="detail-right">
+					<table>
+						<thead>
+							<tr>
+								<td>Характеристики</td>
+								<td></td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Допустимый нагрев жил при работе в аварийном режиме [°С]</td>
+								<td>130</td>
+							</tr>
+							<tr>
+								<td>Монтаж при температуре, не ниже [°C]</td>
+								<td>-20</td>
+							</tr>
+							<tr>
+								<td>Номинальное переменное напряжение частотой 50 Гц [кВ]</td>
+								<td>10</td>
+							</tr>
+							<tr>
+								<td>Рабочая температура жилы [°С]</td>
+								<td>90</td>
+							</tr>
+							<tr>
+								<td>Допустимый нагрев жил при работе в аварийном режиме [°С]</td>
+								<td>15</td>
+							</tr>
+							<tr>
+								<td>Монтаж при температуре, не ниже [°C]</td>
+								<td>+50</td>
+							</tr>
+							<tr>
+								<td>Номинальное переменное напряжение частотой 50 Гц [кВ]</td>
+								<td>-60</td>
+							</tr>
+							<tr>
+								<td>Рабочая температура жилы [°С]</td>
+								<td>250</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="modal-body">
+			<div class="modal-text">
+				<strong>Область применения</strong>
+				<p>Для стационарной прокладки в земле (в траншеях) независимо от степени коррозионной активности грунтов и вод. </p>
+				<p>Кабели эксплуатируют в грунтах с повышенной влажностью и сырых, частично затапливаемых сооружениях.  </p>
+				<p>В несудоходных водоёмах и в судоходных - при соблюдении мер, исключающих механические повреждения кабеля.   </p>
+				<p>Допускается прокладка на воздухе без защиты от солнечной радиации.  </p>
+				<p>В кабельных сооружениях, обеспечивая доп. меры противопожарной защиты, нанесения огнезащитных покрытий.   </p>
+				<p>Кабели прокладываются на трассах без ограничения разности уровней.   </p>
+				<p>Кабели марки ПвПуг предназначены для прокладки на сложных участках кабельных трасс.  </p>
+				<p>Срок службы кабелей - 30 лет.</p>
+			</div>
+			<div class="modal-form">
+				<form action="#">
+					<div class="form-title">Уточняйте цену у менеджера</div>
+					<div class="form-body">
+						<input type="tel" name="tel" placeholder="Введите номер телефона">
+						<div class="form-button">
+							<input type="submit" value="Узнать цену ►">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="modal-product6" class="modal">
+		<div class="modal-head">
+			<div class="modal-title">ПВПУГ</div>
+			<div class="modal-details">
+				<div class="detail-left">
+					<div class="detail-img">
+						<img src="img/product-big1.jpg" alt="">
+					</div>
+				</div>
+				<div class="detail-right">
+					<table>
+						<thead>
+							<tr>
+								<td>Характеристики</td>
+								<td></td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Допустимый нагрев жил при работе в аварийном режиме [°С]</td>
+								<td>130</td>
+							</tr>
+							<tr>
+								<td>Монтаж при температуре, не ниже [°C]</td>
+								<td>-20</td>
+							</tr>
+							<tr>
+								<td>Номинальное переменное напряжение частотой 50 Гц [кВ]</td>
+								<td>10</td>
+							</tr>
+							<tr>
+								<td>Рабочая температура жилы [°С]</td>
+								<td>90</td>
+							</tr>
+							<tr>
+								<td>Допустимый нагрев жил при работе в аварийном режиме [°С]</td>
+								<td>15</td>
+							</tr>
+							<tr>
+								<td>Монтаж при температуре, не ниже [°C]</td>
+								<td>+50</td>
+							</tr>
+							<tr>
+								<td>Номинальное переменное напряжение частотой 50 Гц [кВ]</td>
+								<td>-60</td>
+							</tr>
+							<tr>
+								<td>Рабочая температура жилы [°С]</td>
+								<td>250</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="modal-body">
+			<div class="modal-text">
+				<strong>Область применения</strong>
+				<p>Для стационарной прокладки в земле (в траншеях) независимо от степени коррозионной активности грунтов и вод. </p>
+				<p>Кабели эксплуатируют в грунтах с повышенной влажностью и сырых, частично затапливаемых сооружениях.  </p>
+				<p>В несудоходных водоёмах и в судоходных - при соблюдении мер, исключающих механические повреждения кабеля.   </p>
+				<p>Допускается прокладка на воздухе без защиты от солнечной радиации.  </p>
+				<p>В кабельных сооружениях, обеспечивая доп. меры противопожарной защиты, нанесения огнезащитных покрытий.   </p>
+				<p>Кабели прокладываются на трассах без ограничения разности уровней.   </p>
+				<p>Кабели марки ПвПуг предназначены для прокладки на сложных участках кабельных трасс.  </p>
+				<p>Срок службы кабелей - 30 лет.</p>
+			</div>
+			<div class="modal-form">
+				<form action="#">
+					<div class="form-title">Уточняйте цену у менеджера</div>
+					<div class="form-body">
+						<input type="tel" name="tel" placeholder="Введите номер телефона">
+						<div class="form-button">
+							<input type="submit" value="Узнать цену ►">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="modal-product7" class="modal">
+		<div class="modal-head">
+			<div class="modal-title">ПВПУГ</div>
+			<div class="modal-details">
+				<div class="detail-left">
+					<div class="detail-img">
+						<img src="img/product-big1.jpg" alt="">
+					</div>
+				</div>
+				<div class="detail-right">
+					<table>
+						<thead>
+							<tr>
+								<td>Характеристики</td>
+								<td></td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Допустимый нагрев жил при работе в аварийном режиме [°С]</td>
+								<td>130</td>
+							</tr>
+							<tr>
+								<td>Монтаж при температуре, не ниже [°C]</td>
+								<td>-20</td>
+							</tr>
+							<tr>
+								<td>Номинальное переменное напряжение частотой 50 Гц [кВ]</td>
+								<td>10</td>
+							</tr>
+							<tr>
+								<td>Рабочая температура жилы [°С]</td>
+								<td>90</td>
+							</tr>
+							<tr>
+								<td>Допустимый нагрев жил при работе в аварийном режиме [°С]</td>
+								<td>15</td>
+							</tr>
+							<tr>
+								<td>Монтаж при температуре, не ниже [°C]</td>
+								<td>+50</td>
+							</tr>
+							<tr>
+								<td>Номинальное переменное напряжение частотой 50 Гц [кВ]</td>
+								<td>-60</td>
+							</tr>
+							<tr>
+								<td>Рабочая температура жилы [°С]</td>
+								<td>250</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="modal-body">
+			<div class="modal-text">
+				<strong>Область применения</strong>
+				<p>Для стационарной прокладки в земле (в траншеях) независимо от степени коррозионной активности грунтов и вод. </p>
+				<p>Кабели эксплуатируют в грунтах с повышенной влажностью и сырых, частично затапливаемых сооружениях.  </p>
+				<p>В несудоходных водоёмах и в судоходных - при соблюдении мер, исключающих механические повреждения кабеля.   </p>
+				<p>Допускается прокладка на воздухе без защиты от солнечной радиации.  </p>
+				<p>В кабельных сооружениях, обеспечивая доп. меры противопожарной защиты, нанесения огнезащитных покрытий.   </p>
+				<p>Кабели прокладываются на трассах без ограничения разности уровней.   </p>
+				<p>Кабели марки ПвПуг предназначены для прокладки на сложных участках кабельных трасс.  </p>
+				<p>Срок службы кабелей - 30 лет.</p>
+			</div>
+			<div class="modal-form">
+				<form action="#">
+					<div class="form-title">Уточняйте цену у менеджера</div>
+					<div class="form-body">
+						<input type="tel" name="tel" placeholder="Введите номер телефона">
+						<div class="form-button">
+							<input type="submit" value="Узнать цену ►">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="modal-product8" class="modal">
+		<div class="modal-head">
+			<div class="modal-title">ПВПУГ</div>
+			<div class="modal-details">
+				<div class="detail-left">
+					<div class="detail-img">
+						<img src="img/product-big1.jpg" alt="">
+					</div>
+				</div>
+				<div class="detail-right">
+					<table>
+						<thead>
+							<tr>
+								<td>Характеристики</td>
+								<td></td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Допустимый нагрев жил при работе в аварийном режиме [°С]</td>
+								<td>130</td>
+							</tr>
+							<tr>
+								<td>Монтаж при температуре, не ниже [°C]</td>
+								<td>-20</td>
+							</tr>
+							<tr>
+								<td>Номинальное переменное напряжение частотой 50 Гц [кВ]</td>
+								<td>10</td>
+							</tr>
+							<tr>
+								<td>Рабочая температура жилы [°С]</td>
+								<td>90</td>
+							</tr>
+							<tr>
+								<td>Допустимый нагрев жил при работе в аварийном режиме [°С]</td>
+								<td>15</td>
+							</tr>
+							<tr>
+								<td>Монтаж при температуре, не ниже [°C]</td>
+								<td>+50</td>
+							</tr>
+							<tr>
+								<td>Номинальное переменное напряжение частотой 50 Гц [кВ]</td>
+								<td>-60</td>
+							</tr>
+							<tr>
+								<td>Рабочая температура жилы [°С]</td>
+								<td>250</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="modal-body">
+			<div class="modal-text">
+				<strong>Область применения</strong>
+				<p>Для стационарной прокладки в земле (в траншеях) независимо от степени коррозионной активности грунтов и вод. </p>
+				<p>Кабели эксплуатируют в грунтах с повышенной влажностью и сырых, частично затапливаемых сооружениях.  </p>
+				<p>В несудоходных водоёмах и в судоходных - при соблюдении мер, исключающих механические повреждения кабеля.   </p>
+				<p>Допускается прокладка на воздухе без защиты от солнечной радиации.  </p>
+				<p>В кабельных сооружениях, обеспечивая доп. меры противопожарной защиты, нанесения огнезащитных покрытий.   </p>
+				<p>Кабели прокладываются на трассах без ограничения разности уровней.   </p>
+				<p>Кабели марки ПвПуг предназначены для прокладки на сложных участках кабельных трасс.  </p>
+				<p>Срок службы кабелей - 30 лет.</p>
+			</div>
+			<div class="modal-form">
+				<form action="#">
+					<div class="form-title">Уточняйте цену у менеджера</div>
+					<div class="form-body">
+						<input type="tel" name="tel" placeholder="Введите номер телефона">
+						<div class="form-button">
+							<input type="submit" value="Узнать цену ►">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
